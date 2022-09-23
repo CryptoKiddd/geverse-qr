@@ -62,7 +62,7 @@ p{
     align-items: center;
 }
 .section-2{
-    height: 130vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 0.5rem 1rem;
