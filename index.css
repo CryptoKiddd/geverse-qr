@@ -234,7 +234,7 @@ i{
     gap: 20px;
 }
 .fa-hover:hover{
- color: teal;
+ color: rgb(13, 206, 29);
 }
 .number{
     display: flex;
@@ -246,4 +246,5 @@ i{
 .number p,i{
     font-size: 1.5rem;
     font-weight: bold;
+    color:white
 }
