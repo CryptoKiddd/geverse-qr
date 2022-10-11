@@ -7,6 +7,9 @@
 p,h1,span,h2{
     font-family:"Fira Sans"," Monospace";
 }
+.main-h1{
+    font-weight:bolder;
+}
 img{
     width: 100%;
     height: 100%;
@@ -107,8 +110,8 @@ padding-bottom: 8rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 3.5rem;
-height: 100%;
+gap: 4.6rem;
+height: 900px;
     
 }
 .section-3 div{
@@ -117,7 +120,7 @@ height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: .7rem;
+    gap: .5rem;
 }
 .section-3 p{
     font-size: .9rem
@@ -125,7 +128,7 @@ height: 100%;
 .section-3 h1{
     font-weight: 800;
     font-size: 1.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
 }
 .old-batumi{
     padding: .7rem 2rem;
@@ -143,8 +146,8 @@ height: 100%;
 }
 .old-batumi span{
     position: absolute;
-    top: -8px;
-    background: rgba(37, 27, 110, 0.959);
+    top: -10px;
+    background: #8592db;
     width: 50%;
     left: 25%;
     border-radius: 5px;
