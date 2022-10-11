@@ -268,7 +268,7 @@ i{
 }
 .presentation-icon{
     position: absolute;
-    left:185px;
+    left: calc(50% - 35px) ;
     bottom:110px;
     text-decoration: none;
     width: 70px;
