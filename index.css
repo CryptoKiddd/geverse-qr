@@ -16,7 +16,7 @@ img{
 }
 .section{
     width: 100%;
-    height:100vh;
+    height:916px;
     position: relative;
 }
 body{
@@ -50,7 +50,7 @@ p{
     justify-content: space-between;
     padding: 1.6rem 0.5rem;
     padding-bottom: 2.2rem;
-    height:120vh;
+    /* height:120vh; */
 
 }
 .section-1 p,h1{
@@ -75,22 +75,24 @@ p{
     margin-bottom: 1rem;
 }
 .section-2{
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     padding: 0.5rem 0rem;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2.5rem;
 
     /* background-image: url(images/2.png); */
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .section-2 div{
     display: flex;
     text-align: center;
-    gap: 2rem;
+    gap: 1rem;
     flex-direction: column;
 
 }
@@ -110,7 +112,7 @@ padding-bottom: 8rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 4.6rem;
+gap: 2.6rem;
 height: 900px;
     
 }
@@ -132,7 +134,7 @@ height: 900px;
 }
 .old-batumi{
     padding: .7rem 2rem;
-    margin-top: -2rem;
+    margin-top: -1rem;
 
     border: 4px solid white;
     border-radius: 15px;
@@ -156,6 +158,10 @@ height: 900px;
     color: white;
     font-size: .8rem;
 }
+.section-4{
+    height: 100vh;
+
+}
 .section-5{
     display: flex;
     flex-direction: column;
@@ -166,7 +172,7 @@ height: 900px;
    
     
     text-align: center;
-    height: 100%;
+    /* height: 100%; */
 }
 .section-5 h1{
     font-size: 1.8rem;
@@ -207,7 +213,7 @@ i{
     align-items: center;
     justify-content: center;
    
-    gap: 80px;
+    gap: 60px;
  
 }
 .cam-wrap{
@@ -256,4 +262,7 @@ i{
     font-size: 1.8rem;
     font-weight: bold;
     color:white
+}
+.seperator{
+    height: 10px;
 }
