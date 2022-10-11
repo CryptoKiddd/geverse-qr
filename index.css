@@ -263,3 +263,32 @@ i{
 .seperator{
     height: 3px;
 }
+.section-4{
+    position: relative;
+}
+.presentation-icon{
+    position: absolute;
+    left:185px;
+    bottom:110px;
+    text-decoration: none;
+    width: 70px;
+    color: white;
+    border-radius: 5px;
+   
+     
+  
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 37, 0);
+    transition: all 450ms ease;
+    
+
+}
+.presentation-icon:hover{
+    scale: 1.2;
+       
+
+}
